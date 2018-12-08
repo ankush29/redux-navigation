@@ -46,3 +46,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # redux-map
 # redux-map
 # redux-map
+# redux-navigation
