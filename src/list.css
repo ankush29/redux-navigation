@@ -1,0 +1,57 @@
+.menu-wrapper {
+	position: absolute;
+	max-width: 1000px;
+	/* height: 100px; */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+	margin: 1em auto;
+	border: 1px solid #f1f1ef;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.menu	{
+	height: 150px;
+	background: #ffffff;
+	box-sizing: border-box;
+  padding: 0;
+	margin: 0;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.item {
+	display: inline-block;
+	width: 300px;
+	height: 100%;
+	outline: 1px solid #dbdbdb;
+	padding: 1em;
+	box-sizing: border-box;
+  color: #c8c8c8
+}
+
+.innerText {
+  font-size: 14px;
+}
+
+.paddles {
+}
+.paddle {
+  border: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 3em;
+}
+.left-paddle {
+	left: 0;
+}
+.right-paddle {
+	right: 0;
+}
+.hidden {
+	display: none;
+}

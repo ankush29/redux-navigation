@@ -1,0 +1,59 @@
+.pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 8px solid #f6b833;
+  width: 8px;
+  height: 8px;
+}
+
+.pin::after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  bottom: -30px;
+  left: -6px;
+  border: 10px solid transparent;
+  border-top: 17px solid #f6b833;
+}
+
+.popup {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  z-index: 9
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

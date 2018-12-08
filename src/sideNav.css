@@ -1,0 +1,30 @@
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2171bc;
+  overflow-x: hidden;
+}
+
+.navHeader {
+  position: relative;
+  height: 70px;
+  background: #ffffff;
+  border-left: 10px solid #f6b833;
+}
+
+.navContent {
+  position: relative;
+  height: 70px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navHeader img , .navContent img {
+  position: relative;
+  transform: translateY(-50%);
+  width: 30px;
+  top: 50%;
+}
