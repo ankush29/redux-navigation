@@ -16,9 +16,9 @@ exports.data = {
       lng: '77.216667'
     },
     {
-      name: 'Chandni Chowk',
-      lat: '28.650789',
-      lng: '77.232040'
+      name: 'Rajouri Garden',
+      lat: '28.646980',
+      lng: '77.125664'
     },
     {
       name: 'Lajpat Nagar',
@@ -26,9 +26,9 @@ exports.data = {
       lng: '77.246231'
     },
     {
-      name: 'Barakhamba Road',
-      lat: '28.629944',
-      lng: '77.224205'
+      name: 'Saket',
+      lat: '28.524578',
+      lng: '77.206612'
     },
   ]
 }
