@@ -1,0 +1,3 @@
+[submodule "redux-navigation"]
+	path = redux-navigation
+	url = https://github.com/ankush29/redux-navigation
